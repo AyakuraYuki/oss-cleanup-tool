@@ -20,9 +20,9 @@ import java.util.List;
 public class CleanupOSSObject {
 
   private static final String ENDPOINT    = "https://oss-cn-hangzhou.aliyuncs.com";
-  private static final String BUCKET_NAME = "oss-dodo-voice-agora-storage";
-  private static final String ACCESS_KEY  = "CDZEHqEmEgPklQay";
-  private static final String SECRET_KEY  = "jjondPPsLAMj0blhjIQ2YbWJAHvwAo";
+  private static final String BUCKET_NAME = "";
+  private static final String ACCESS_KEY  = "";
+  private static final String SECRET_KEY  = "";
   private static final int    DAYS_BEFORE = 180; // 需要删除指定天数前的文件，例如 180 表示从现在往前 180 天的那一天之前的文件会被删除
 
   public static void main(String[] args) {
